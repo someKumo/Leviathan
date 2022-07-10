@@ -1,0 +1,27 @@
+name: Leviathan
+version: 1.0
+main: de.kumo.leviathan.Main
+api-version: 1.16
+author: Kumo
+default-permission: op
+
+commands:
+  heal:
+    description: simple health and hunger filler
+
+  enderchest:
+    description: magic pocket
+    aliases: ec
+
+  mute:
+    description: i dont need to explain that
+
+  crash:
+    description: not very funny
+
+  workbench:
+    description: for the crafters
+    aliases: wb
+
+  live:
+    description: sets a live status on the scoreboard
