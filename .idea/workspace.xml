@@ -10,10 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21cf5298-d5aa-4298-a06c-96b35c0b6ae8" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leviathan.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/enderchest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/enderchest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/heal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/heal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/mute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/mute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/streaming.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/streaming.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/workbench.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/workbench.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657411751567</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1658262892876</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658262892876</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
