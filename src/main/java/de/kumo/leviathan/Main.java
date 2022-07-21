@@ -10,11 +10,11 @@ import java.util.Objects;
 public class Main extends JavaPlugin {
 
     public static String pre = "§8[§bLeviathan§8] | §7";
-
     public static String noperm = "§8Sorry. not today";
 
     public static ArrayList<String> mute = new ArrayList<>();
-    public static ArrayList<String> live =new ArrayList<>();
+    public static ArrayList<String> live = new ArrayList<>();
+    public static ArrayList<String> inventory = new ArrayList<>();
 
 
 
@@ -41,7 +41,7 @@ public class Main extends JavaPlugin {
     }
 
     public void onDisable() {
-        Bukkit.getConsoleSender().sendMessage("§c Leviathan shut down");
+        Bukkit.getConsoleSender().sendMessage("§c Leviathan deactivated!");
     }
 
 }

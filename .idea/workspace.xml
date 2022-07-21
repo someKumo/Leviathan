@@ -10,12 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21cf5298-d5aa-4298-a06c-96b35c0b6ae8" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/enderchest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/enderchest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/heal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/heal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/mute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/mute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/streaming.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/streaming.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/workbench.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/workbench.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/commands/inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_papermc_paper_paper_api_1_19_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_papermc_paper_paper_api_1_19_R0_1_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/commands/enderchest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/commands/enderchest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/commands/streaming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/commands/streaming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/commands/workbench.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/commands/workbench.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -133,6 +137,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.facetType" implementationName="minecraft" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -143,7 +150,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

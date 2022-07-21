@@ -23,7 +23,7 @@ public class streaming implements CommandExecutor {
 
             }
         } else {
-            p.sendMessage("§3 Usage: §c /live");
+            p.sendMessage(Main.pre + "§3 Usage: §c /live");
         }
 
 

@@ -10,12 +10,13 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import de.kumo.leviathan.Main;
+import org.jetbrains.annotations.NotNull;
 
 public class enderchest implements CommandExecutor {
 
     public static ArrayList<UUID> enderchest = new ArrayList<UUID>();
 
-    public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+    public boolean onCommand(@NotNull CommandSender sender, @NotNull Command cmd, @NotNull String label, String[] args) {
 
         if(!(sender instanceof Player)) {
             sender.sendMessage(Main.pre + Main.noperm);
@@ -26,8 +27,8 @@ public class enderchest implements CommandExecutor {
 
 
         if(args.length == 0) {
-            p.openInventory(p.getEnderChest())
-            ;	}
+            p.openInventory(p.getEnderChest());
+        }
         else if(args.length == 1) {
             if(!p.hasPermission("essentials.enderchest")) {
                 p.sendMessage(Main.pre + Main.noperm);
