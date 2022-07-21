@@ -20,7 +20,6 @@ public class Main extends JavaPlugin implements Listener {
 
     public static ArrayList<String> mute = new ArrayList<>();
     public static ArrayList<String> live = new ArrayList<>();
-    public static ArrayList<String> inventory = new ArrayList<>();
 
     public void onEnable() {
         config.addDefault("is the Config working? (should be true)", true);
@@ -42,7 +41,7 @@ public class Main extends JavaPlugin implements Listener {
         Objects.requireNonNull(getCommand("ec")).setExecutor(new enderchest());
         Objects.requireNonNull(getCommand("mute")).setExecutor(new mute());
         Objects.requireNonNull(getCommand("workbench")).setExecutor(new workbench());
-        Objects.requireNonNull(getCommand("live")).setExecutor(new streaming());
+        Objects.requireNonNull(getCommand("live")).setExecutor(new live());
         Objects.requireNonNull(getCommand("inventory")).setExecutor((new inventory()));
     }
 

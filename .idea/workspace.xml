@@ -9,8 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21cf5298-d5aa-4298-a06c-96b35c0b6ae8" name="Default Changelist" comment="updated plugin.yml">
+    <list default="true" id="21cf5298-d5aa-4298-a06c-96b35c0b6ae8" name="Default Changelist" comment="formatting">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/commands/streaming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/commands/live.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658408640220</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="formatting">
+      <created>1658408909781</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658408909781</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +204,7 @@
     <MESSAGE value="visual feedback if config is working" />
     <MESSAGE value="update" />
     <MESSAGE value="updated plugin.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated plugin.yml" />
+    <MESSAGE value="formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="formatting" />
   </component>
 </project>
