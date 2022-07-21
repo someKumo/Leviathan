@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Leviathan" target="17" />
+      <module name="Leviathan" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

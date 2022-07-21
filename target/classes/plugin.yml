@@ -1,27 +1,34 @@
 name: Leviathan
-version: 1.0
+version: 1.1
 main: de.kumo.leviathan.Main
-api-version: 1.16
+api-version: 1.19
 author: Kumo
 default-permission: op
+website: https://simplykumo.de
 
 commands:
   heal:
     description: simple health and hunger filler
+    usage: "/heal [Player]"
 
   enderchest:
     description: magic pocket
     aliases: ec
+    usage: "/enderchest [Player]"
 
   mute:
-    description: i dont need to explain that
+    description: mutes someone
+    usage: "/mute [Player]"
 
   crash:
     description: not very funny
+    usage: "/crash [Player]"
 
   workbench:
     description: for the crafters
     aliases: wb
+    usage: "/workbench"
 
   live:
     description: sets a live status on the scoreboard
+    usage: "/live"
