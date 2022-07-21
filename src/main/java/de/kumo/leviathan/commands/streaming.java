@@ -15,9 +15,6 @@ public class streaming implements CommandExecutor {
         Player p = (Player)sender;
         Player target = Bukkit.getPlayer(args[0]);
 
-        if(!p.hasPermission("essentials.live")) {
-            p.hasPermission(Main.pre + Main.noperm);
-        }
         if (args.length == 1) {
             if(sender instanceof Player){
 
