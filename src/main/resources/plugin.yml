@@ -1,7 +1,7 @@
 name: Leviathan
-version: 1.0
+version: 1.1
 main: de.kumo.leviathan.Main
-api-version: 1.16
+api-version: 1.19
 author: Kumo
 default-permission: op
 
@@ -14,7 +14,7 @@ commands:
     aliases: ec
 
   mute:
-    description: i dont need to explain that
+    description: mutes someone
 
   crash:
     description: not very funny

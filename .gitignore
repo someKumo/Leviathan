@@ -4,6 +4,10 @@
 # Log file
 *.log
 
+# misc
+MANIFEST.MF
+
+
 # BlueJ files
 *.ctxt
 
