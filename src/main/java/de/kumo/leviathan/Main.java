@@ -22,19 +22,17 @@ public class Main extends JavaPlugin implements Listener {
     public static ArrayList<String> live = new ArrayList<>();
     public static ArrayList<String> inventory = new ArrayList<>();
 
-
-
     public void onEnable() {
         config.addDefault("is the Config working? (should be true)", true);
         config.options().copyDefaults(true);
         saveConfig();
 
         if(config.getBoolean("is the Config working? (should be true)")) {
-            Bukkit.getConsoleSender().sendMessage(Main.pre + Color.darkGray +"Config is fine!");
+            Bukkit.getConsoleSender().sendMessage(Main.pre + Color.darkGray + "Config is fine!");
         } else {
-            Bukkit.getConsoleSender().sendMessage(Main.pre + Color.darkGray +"Config is "+ Color.red+"not"+ Color.darkGray +"fine!");
+            Bukkit.getConsoleSender().sendMessage(Main.pre + Color.darkGray + "Config is " + Color.red+ "not" + Color.darkGray + "fine!");
         }
-        Bukkit.getConsoleSender().sendMessage(Main.pre + Color.green+ "successfully started up!");
+        Bukkit.getConsoleSender().sendMessage(Main.pre + Color.green + "successfully started up!");
 
 
 
