@@ -22,10 +22,12 @@ opens the inventory of someone else
 - requires OP
 > /mute [Player]
 * mutes someone
+* doesn't work [atm](https://www.urbandictionary.com/define.php?term=At%20the%20moment)
 - doesn't require [Player] for self
 - the Player must be online
 - requires OP
 > /streaming
+* puts a red dot before your name on the scoreboard
 * doesn't work [atm](https://www.urbandictionary.com/define.php?term=At%20the%20moment)
 > /workbench
 * opens a portable workbench
