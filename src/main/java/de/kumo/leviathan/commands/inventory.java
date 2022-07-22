@@ -24,7 +24,7 @@ public class inventory implements CommandExecutor {
             return true;
         }
         if (Main.config.getBoolean("/invetory needs OP")) {
-            if (player.hasPermission("essentials.inventory")){
+            if (player.hasPermission("essentials.inventory")) {
                 if (args.length == 0) {
                     player.openInventory(player.getInventory());
                 } else if (args.length == 1) {
