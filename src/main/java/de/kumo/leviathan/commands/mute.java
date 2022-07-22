@@ -19,14 +19,14 @@ public class mute implements CommandExecutor {
         Player target = Bukkit.getPlayer(args[0]);
 
         if (!p.hasPermission("essentials.Mute")) {
-            p.hasPermission(Main.pre + Main.noperm);
+            p.hasPermission(Main.prefix + Main.noperm);
         } else {
             if (args.length == 1) {
                 if (Main.mute.contains(Objects.requireNonNull(target).getName())) {
-                    p.sendMessage(Main.pre + "§b" + target.getName() + " §7has been unmuted.");
+                    p.sendMessage(Main.prefix + "§b" + target.getName() + " §7has been unmuted.");
                     Main.mute.remove(target.getName());
                 } else {
-                    p.sendMessage(Main.pre + "§b" + target.getName() + " §7has been muted.");
+                    p.sendMessage(Main.prefix + "§b" + target.getName() + " §7has been muted.");
                     Main.mute.add(target.getName());
                 }
             } else {

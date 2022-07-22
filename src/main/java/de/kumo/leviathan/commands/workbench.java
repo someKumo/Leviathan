@@ -14,7 +14,7 @@ public class workbench implements CommandExecutor {
             p.openWorkbench(null, true);
             return true;
         } else {
-            p.sendMessage(Main.pre + Main.noperm);
+            p.sendMessage(Main.prefix + Main.noperm);
         }
         return false;
     }

@@ -19,7 +19,7 @@ public class enderchest implements CommandExecutor {
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command cmd, @NotNull String label, String[] args) {
 
         if (!(sender instanceof Player)) {
-            sender.sendMessage(Main.pre + Main.noperm);
+            sender.sendMessage(Main.prefix + Main.noperm);
             return true;
         }
 
@@ -30,12 +30,12 @@ public class enderchest implements CommandExecutor {
             p.openInventory(p.getEnderChest());
         } else if (args.length == 1) {
             if (!p.hasPermission("essentials.enderchest")) {
-                p.sendMessage(Main.pre + Main.noperm);
+                p.sendMessage(Main.prefix + Main.noperm);
                 return true;
             }
             Player target = Bukkit.getPlayer(args[0]);
             if (target == null) {
-                p.sendMessage(Main.pre + "§cThis Player is currently not online!");
+                p.sendMessage(Main.prefix + "§cThis Player is currently not online!");
                 return true;
             }
             p.openInventory(target.getEnderChest());

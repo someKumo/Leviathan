@@ -21,14 +21,14 @@ public class live implements CommandExecutor {
 
         if (args.length == 0) {
             if (Main.live.contains(Objects.requireNonNull(p).getName())) {
-                p.sendMessage(Main.pre + Color.darkGray + "you're no longer Live!");
+                p.sendMessage(Main.prefix + Color.darkGray + "you're no longer Live!");
                 Main.live.remove(p.getName());
             } else {
-                p.sendMessage(Main.pre + Color.darkGray + "you're now Live!");
+                p.sendMessage(Main.prefix + Color.darkGray + "you're now Live!");
                 Main.live.add(p.getName());
             }
         } else {
-            p.sendMessage(Main.pre + "§3 Usage: §c /live");
+            p.sendMessage(Main.prefix + "§3 Usage: §c /live");
         }
 
 

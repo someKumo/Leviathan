@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21cf5298-d5aa-4298-a06c-96b35c0b6ae8" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_papermc_paper_paper_api_1_19_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_papermc_paper_paper_api_1_19_R0_1_SNAPSHOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/commands/enderchest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/commands/enderchest.java" afterDir="false" />
@@ -20,9 +19,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/commands/mute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/commands/mute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/commands/workbench.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/commands/workbench.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/enderchest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/enderchest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/workbench.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/workbench.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658430870310</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update">
+      <created>1658470981499</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658470981499</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

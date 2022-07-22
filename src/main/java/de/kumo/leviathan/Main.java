@@ -6,14 +6,13 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.Objects;
 
 public class Main extends JavaPlugin implements Listener {
 
-    public static String pre = "§8[§bLeviathan§8] | §7";
-    public static String noperm = "§8Sorry. not today!";
+    public static String prefix = "§8[§bLeviathan§8] | §7";
+    public static String noperm = "§cSorry§7. Not today!";
     FileConfiguration config = getConfig();
 
     public static ArrayList<String> mute = new ArrayList<>();
@@ -27,13 +26,13 @@ public class Main extends JavaPlugin implements Listener {
         //Config Check
 
         if (config.getBoolean("is the Config working? (should be true)")) {
-            Bukkit.getConsoleSender().sendMessage(Main.pre + Color.darkGray + "Config is fine!");
+            Bukkit.getConsoleSender().sendMessage(Main.prefix + "Config is§a fine§7!");
         } else {
-            Bukkit.getConsoleSender().sendMessage(Main.pre + Color.darkGray + "Config is " + Color.red + "not" + Color.darkGray + "fine!");
+            Bukkit.getConsoleSender().sendMessage(Main.prefix + "Config is§c not§7 fine!");
         }
 
 
-        Bukkit.getConsoleSender().sendMessage(Main.pre + Color.green + "successfully started up!");
+        Bukkit.getConsoleSender().sendMessage(Main.prefix + "§aSuccessfully§7 started up!");
 
 
         //Command Registration
@@ -47,7 +46,7 @@ public class Main extends JavaPlugin implements Listener {
     }
 
     public void onDisable() {
-        Bukkit.getConsoleSender().sendMessage("§c Leviathan deactivated!");
+        Bukkit.getConsoleSender().sendMessage(Main.prefix +"§cDeactivated§7!");
     }
 
 }

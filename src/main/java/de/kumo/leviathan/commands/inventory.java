@@ -20,7 +20,7 @@ public class inventory implements CommandExecutor {
         Player target = Bukkit.getPlayer(args[0]);
 
         if (!(sender instanceof Player)) {
-            sender.sendMessage(Main.pre + Main.noperm);
+            sender.sendMessage(Main.prefix + Main.noperm);
             return true;
         }
         if (args.length == 0) {

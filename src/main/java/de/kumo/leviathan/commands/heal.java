@@ -18,7 +18,7 @@ public class heal implements CommandExecutor {
             p.setFoodLevel(20);
 
         } else
-            sender.sendMessage(Main.pre + Main.noperm);
+            sender.sendMessage(Main.prefix + Main.noperm);
 
         return false;
     }
