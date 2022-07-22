@@ -16,21 +16,32 @@ public class inventory implements CommandExecutor {
 
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command cmd, @NotNull String Label, @NotNull String[] args) {
 
-        Player p = (Player) sender;
+        Player player = (Player) sender;
         Player target = Bukkit.getPlayer(args[0]);
 
         if (!(sender instanceof Player)) {
             sender.sendMessage(Main.prefix + Main.noperm);
             return true;
         }
-        if (args.length == 0) {
-            p.openInventory(p.getInventory());
-        } else if (args.length == 1) {
-            p.openInventory(target.getInventory());
-            inventory.contains(p.getUniqueId());
+        if (Main.config.getBoolean("/invetory needs OP")) {
+            if (player.hasPermission("essentials.inventory")){
+                if (args.length == 0) {
+                    player.openInventory(player.getInventory());
+                } else if (args.length == 1) {
+                    player.openInventory(target.getInventory());
+                    inventory.contains(player.getUniqueId());
+                }
+            } else {
+                player.sendMessage(Main.prefix + Main.noperm);
+            }
+        } else {
+            if (args.length == 0) {
+                player.openInventory(player.getInventory());
+            } else if (args.length == 1) {
+                player.openInventory(target.getInventory());
+                inventory.contains(player.getUniqueId());
+            }
         }
-
-
         return false;
     }
 }

@@ -27,6 +27,7 @@ public class Main extends JavaPlugin implements Listener {
         config.addDefault("Is the Config working?", true);
         config.addDefault("/enderchest needs OP", true);
         config.addDefault("/heal needs OP", true);
+        config.addDefault("/inventory need OP", true);
         config.options().copyDefaults(true);
         saveConfig();
 
