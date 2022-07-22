@@ -15,14 +15,14 @@ public class mute implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 
-        Player p = (Player)sender;
+        Player p = (Player) sender;
         Player target = Bukkit.getPlayer(args[0]);
 
-        if(!p.hasPermission("essentials.Mute")) {
+        if (!p.hasPermission("essentials.Mute")) {
             p.hasPermission(Main.pre + Main.noperm);
         } else {
             if (args.length == 1) {
-                if(Main.mute.contains(Objects.requireNonNull(target).getName())) {
+                if (Main.mute.contains(Objects.requireNonNull(target).getName())) {
                     p.sendMessage(Main.pre + "§b" + target.getName() + " §7has been unmuted.");
                     Main.mute.remove(target.getName());
                 } else {

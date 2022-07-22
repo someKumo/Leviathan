@@ -13,23 +13,22 @@ import java.util.UUID;
 
 public class inventory implements CommandExecutor {
     public static ArrayList<UUID> inventory = new ArrayList<UUID>();
+
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command cmd, @NotNull String Label, @NotNull String[] args) {
 
         Player p = (Player) sender;
         Player target = Bukkit.getPlayer(args[0]);
 
-        if(!(sender instanceof Player)) {
+        if (!(sender instanceof Player)) {
             sender.sendMessage(Main.pre + Main.noperm);
             return true;
         }
         if (args.length == 0) {
             p.openInventory(p.getInventory());
         } else if (args.length == 1) {
-           p.openInventory(target.getInventory());
-           inventory.contains(p.getUniqueId());
+            p.openInventory(target.getInventory());
+            inventory.contains(p.getUniqueId());
         }
-
-
 
 
         return false;
