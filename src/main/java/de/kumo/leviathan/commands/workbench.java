@@ -10,12 +10,15 @@ import org.jetbrains.annotations.NotNull;
 public class workbench implements CommandExecutor {
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command cmd, @NotNull String label, String[] args) {
         Player p = (Player) sender;
-        if (sender instanceof Player && (sender.hasPermission("essentials.workbench"))) {
-            p.openWorkbench(null, true);
-            return true;
-        } else {
-            p.sendMessage(Main.prefix + Main.noperm);
+        if (sender instanceof Player) {
+            if (sender.hasPermission("essentials.workbench")) {
+                p.openWorkbench(null, true);
+                return true;
+            } else {
+                p.sendMessage(Main.prefix + Main.noperm);
+            }
         }
+
         return false;
     }
 }
