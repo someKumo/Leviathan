@@ -13,25 +13,30 @@ public class Main extends JavaPlugin implements Listener {
 
     public static String prefix = "§8[§bLeviathan§8] | §7";
     public static String noperm = "§cSorry§7. Not today!";
-    FileConfiguration config = getConfig();
+
+    public static FileConfiguration config;
 
     public static ArrayList<String> mute = new ArrayList<>();
     public static ArrayList<String> live = new ArrayList<>();
 
     public void onEnable() {
-        config.addDefault("is the Config working? (should be true)", true);
+
+        //Config
+
+        FileConfiguration config = getConfig();
+        config.addDefault("Is the Config working?", true);
+        config.addDefault("/enderchest needs OP", true);
+        config.addDefault("/heal needs OP", true);
         config.options().copyDefaults(true);
         saveConfig();
 
         //Config Check
 
-        if (config.getBoolean("is the Config working? (should be true)")) {
+        if (config.getBoolean("Is the Config working?")) {
             Bukkit.getConsoleSender().sendMessage(Main.prefix + "Config is§a fine§7!");
         } else {
             Bukkit.getConsoleSender().sendMessage(Main.prefix + "Config is§c not§7 fine!");
         }
-
-
         Bukkit.getConsoleSender().sendMessage(Main.prefix + "§aSuccessfully§7 started up!");
 
 
@@ -41,7 +46,7 @@ public class Main extends JavaPlugin implements Listener {
         Objects.requireNonNull(getCommand("ec")).setExecutor(new enderchest());
         Objects.requireNonNull(getCommand("mute")).setExecutor(new mute());
         Objects.requireNonNull(getCommand("workbench")).setExecutor(new workbench());
-        Objects.requireNonNull(getCommand("live")).setExecutor(new live());
+        //Objects.requireNonNull(getCommand("live")).setExecutor(new live());
         //Objects.requireNonNull(getCommand("inventory")).setExecutor((new inventory()));
     }
 
