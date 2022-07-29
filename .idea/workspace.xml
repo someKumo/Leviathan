@@ -9,23 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21cf5298-d5aa-4298-a06c-96b35c0b6ae8" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/commands/vanish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/events/Events.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Leviathan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Leviathan.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_papermc_paper_paper_api_1_19_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_papermc_paper_paper_api_1_19_R0_1_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_19_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_19_R0_1_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_07_2022_08_02_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_07_2022_08_02__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="21cf5298-d5aa-4298-a06c-96b35c0b6ae8" name="Default Changelist" comment="update :)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/commands/enderchest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/kumo/leviathan/commands/enderchest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/enderchest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/enderchest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/workbench.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/kumo/leviathan/commands/workbench.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +28,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -252,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658497501057</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="update :)">
+      <created>1659085209831</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1659085209831</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +274,8 @@
     <MESSAGE value="formatting" />
     <MESSAGE value="update | Config is working!" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update :)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
