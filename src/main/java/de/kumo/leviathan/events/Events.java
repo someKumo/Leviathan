@@ -67,7 +67,6 @@ public class Events implements Listener {
                 p.sendMessage(ChatColor.GRAY + "The " + ChatColor.DARK_PURPLE + "Ender Dragon " + ChatColor.GRAY + "has been slayed!");
             }
         }
-
     }
 
     @EventHandler
