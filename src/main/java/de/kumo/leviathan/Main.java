@@ -1,13 +1,21 @@
 package de.kumo.leviathan;
 
 import de.kumo.leviathan.commands.*;
+import de.kumo.leviathan.events.Events;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.event.Event;
+import org.bukkit.event.server.BroadcastMessageEvent;
 
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.Objects;
+
 
 public class Main extends JavaPlugin implements Listener {
 
@@ -18,8 +26,11 @@ public class Main extends JavaPlugin implements Listener {
 
     public static ArrayList<String> mute = new ArrayList<>();
     public static ArrayList<String> live = new ArrayList<>();
+    public static ArrayList<Player> vanish = new ArrayList<>();
 
     public void onEnable() {
+
+        getServer().getPluginManager().registerEvents(new Events(this), this);
 
         //Config
 
@@ -47,12 +58,15 @@ public class Main extends JavaPlugin implements Listener {
         Objects.requireNonNull(getCommand("ec")).setExecutor(new enderchest());
         Objects.requireNonNull(getCommand("mute")).setExecutor(new mute());
         Objects.requireNonNull(getCommand("workbench")).setExecutor(new workbench());
+        //Objects.requireNonNull(getCommand("vanish")).setExecutor(new vanish(this));
         //Objects.requireNonNull(getCommand("live")).setExecutor(new live());
         //Objects.requireNonNull(getCommand("inventory")).setExecutor((new inventory()));
     }
 
+
     public void onDisable() {
-        Bukkit.getConsoleSender().sendMessage(Main.prefix +"§cDeactivated§7!");
+        Bukkit.getConsoleSender().sendMessage(Main.prefix + "§cDeactivated§7!");
     }
 
 }
+

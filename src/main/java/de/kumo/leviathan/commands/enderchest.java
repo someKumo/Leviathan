@@ -7,7 +7,6 @@ import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 
 import de.kumo.leviathan.Main;
@@ -20,13 +19,12 @@ public class enderchest implements CommandExecutor {
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command cmd, @NotNull String label, String[] args) {
 
         Player player = (Player) sender;
+        Player target = Bukkit.getPlayer(args[0]);
         //checks if sender is player
         if (!(sender instanceof Player)) {
             sender.sendMessage(Main.prefix + Main.noperm);
             return true;
         }
-
-
         //checks if config says needs OP
         if (Main.config.getBoolean("/enderchest needs OP")) {
             //true
@@ -37,7 +35,6 @@ public class enderchest implements CommandExecutor {
                 return true;
             } else {
                 //Player has OP
-                Player target = Bukkit.getPlayer(args[0]);
                 player.openInventory(target.getEnderChest());
                 enderchest.contains(player.getUniqueId());
             }
@@ -50,7 +47,6 @@ public class enderchest implements CommandExecutor {
                     player.sendMessage(Main.prefix + Main.noperm);
                     return true;
                 }
-                Player target = Bukkit.getPlayer(args[0]);
                 if (target == null) {
                     player.sendMessage(Main.prefix + "§cThis Player is currently not online!");
                     return true;

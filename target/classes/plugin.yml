@@ -17,9 +17,6 @@ commands:
   mute:
     description: mutes someone
 
-  crash:
-    description: not very funny
-
   workbench:
     description: for the crafters
     aliases: wb
