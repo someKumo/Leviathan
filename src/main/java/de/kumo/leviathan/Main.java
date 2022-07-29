@@ -1,18 +1,16 @@
 package de.kumo.leviathan;
 
-import de.kumo.leviathan.commands.*;
+import de.kumo.leviathan.commands.enderchest;
+import de.kumo.leviathan.commands.heal;
+import de.kumo.leviathan.commands.mute;
+import de.kumo.leviathan.commands.workbench;
 import de.kumo.leviathan.events.Events;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.event.Event;
-import org.bukkit.event.server.BroadcastMessageEvent;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -39,6 +37,8 @@ public class Main extends JavaPlugin implements Listener {
         config.addDefault("/enderchest needs OP", true);
         config.addDefault("/heal needs OP", true);
         config.addDefault("/inventory need OP", true);
+        config.addDefault("witherkillcount", 0);
+        config.addDefault("enderdragonkillcount", 0);
         config.options().copyDefaults(true);
         saveConfig();
 

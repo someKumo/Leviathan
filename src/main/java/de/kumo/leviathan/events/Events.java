@@ -26,8 +26,8 @@ public class Events implements Listener {
     @EventHandler
     public void PlayerJoin(PlayerJoinEvent e) {
         Player player = e.getPlayer();
-        for (int i = 0; i < plugin.vanish.size(); i++) {
-            player.hidePlayer(plugin, plugin.vanish.get(i));
+        for (int i = 0; i < Main.vanish.size(); i++) {
+            player.hidePlayer(plugin, Main.vanish.get(i));
         }
     }
 
@@ -86,11 +86,11 @@ public class Events implements Listener {
 
             String path = "witherkills." + player.getName().toLowerCase();
 
-            if (config.contains(path)) {
+            if (Main.config.contains(path)) {
                 killCount = config.getInt(path);
             }
             //add one to the counter
-            config.set(path, killCount + 1);
+            Main.config.set(path, killCount + 1);
             plugin.saveConfig();
 
             player.sendMessage(ChatColor.GREEN + "You have killed the Wither!");
