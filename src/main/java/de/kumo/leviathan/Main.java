@@ -1,9 +1,6 @@
 package de.kumo.leviathan;
 
-import de.kumo.leviathan.commands.enderchest;
-import de.kumo.leviathan.commands.heal;
-import de.kumo.leviathan.commands.mute;
-import de.kumo.leviathan.commands.workbench;
+import de.kumo.leviathan.commands.*;
 import de.kumo.leviathan.events.Events;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
