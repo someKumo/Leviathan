@@ -54,9 +54,6 @@ public class Main extends JavaPlugin implements Listener {
         Objects.requireNonNull(getCommand("ec")).setExecutor(new enderchest());
         Objects.requireNonNull(getCommand("mute")).setExecutor(new mute());
         Objects.requireNonNull(getCommand("workbench")).setExecutor(new workbench());
-        //Objects.requireNonNull(getCommand("vanish")).setExecutor(new vanish(this));
-        //Objects.requireNonNull(getCommand("live")).setExecutor(new live());
-        //Objects.requireNonNull(getCommand("inventory")).setExecutor((new inventory()));
     }
 
 
