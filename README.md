@@ -1,7 +1,6 @@
 # Leviathan
 
-Leviathan is a personal papermc plugin from me.
-
+Leviathan is a personal papermc project
 ## How-To
 > /enderchest [Player]
 * opens the enderchest of yourself or someone else
